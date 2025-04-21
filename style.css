@@ -1,0 +1,66 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(47, 88%, 63%);
+    margin: 2rem 0rem;
+}
+
+.container {
+    max-width: 30%;
+    background: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px hsl(0, 0%, 7%);
+}
+
+.first-img {
+    width: 100%;
+}
+
+.img-text {
+    padding: 1rem 0rem;
+}
+
+.img-text button {
+    background: hsl(47, 88%, 63%);
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.img-text p {
+    color: hsl(0, 0%, 42%);
+    padding: 0.5rem 0rem;
+    padding-right: 3rem;
+    font-size: 17px;
+}
+
+.img-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+}
+
+.flex-item h3 {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
