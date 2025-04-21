@@ -43,6 +43,10 @@ body {
     font-weight: bold;
     border-radius: 7px;
 }
+.img-text button:hover {
+    background: hsl(47, 88%, 53%);
+    cursor: pointer;
+}
 
 .img-text p {
     color: hsl(0, 0%, 42%);
@@ -65,12 +69,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 50%;
-        margin-top: 10rem;
-    }
-}
 @media (max-width: 500px) {
     .container {
         max-width: 90%;
